@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background: url(/images/bag2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  width: 160px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+ul {
+  margin-top: -120px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+
+ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(41, 60, 60);
+  margin-top: 10px;
+  transition: 0.4s ease;
+}
+
+ul li a:hover {
+  color: rgb(74, 66, 180);
+}
+
+.info {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.info h1 {
+  font-size: 65px;
+  color: black;
+}
+
+.info h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.info span {
+  color: rgb(199, 61, 10);
+}
+
+.info a {
+  text-decoration: none;
+  color: #fff;
+  background: rgb(36, 32, 30);
+  margin: 26px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.4s ease;
+}
+
+.info a:hover {
+  background: rgb(59, 174, 209);
+}
+
+.image {
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+
+.image img {
+  position: absolute;
+  height: 140%;
+  left: 38%;
+  transform: translate(-65%);
+  bottom: 0;
+  transition: left 2s ease;
+}
+
+.image:hover .main_photo {
+  left: 55%;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #320a0a;
+}
+
+.icons {
+  margin-left: 7%;
+  color: #000;
+  font-size: 40px;
+  transition: 0.4s ease;
+}
+
+.icons:hover {
+  color: rgb(4, 98, 127);
+}
+.icons.icon-face {
+  color: #000;
+  margin-top: 50px;
+}
+.about {
+  background-image: url(./images/bag2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  gap: 20px;
+}
+.personal {
+  text-align: center;
+  line-height: 50px;
+  margin-left: 10px;
+}
+.title_per {
+}
+.personal {
+}
+.professional {
+  line-height: 50px;
+}
+
+.title_prof {
+  line-height: 50px;
+}
+.hobbie {
+  margin-right: 10px;
+  line-height: 50px;
+}
+.title-hob {
+}
